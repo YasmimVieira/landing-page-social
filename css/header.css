@@ -36,3 +36,32 @@
 .header__starts img {
     width: 8%;
 }
+
+@media screen and (min-width: 768px) {
+    .header {
+        margin-top: 10%;
+    }
+
+    .header__title {
+        font-size: 2.5rem;
+    }
+
+    .header__description {
+        font-size: 1rem;
+    }
+
+    .header__starts-icons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__starts {
+        width: 70%;
+    }
+
+    .header__starts img {
+        width: 3%;
+    }
+}
