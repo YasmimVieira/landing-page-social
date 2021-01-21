@@ -65,3 +65,41 @@
         width: 3%;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .header {
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .header__texts {
+        width: 30%;
+        text-align: start;
+    }
+
+    .header__description {
+        padding: 0;
+    }
+
+    .header__starts {
+        width: 25vw;
+        height: 7vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .header__starts img {
+        width: 15%;
+    } 
+
+    .div2 {
+        margin-left: 33%;
+    }
+
+    .div3 {
+        margin-left: 68%;
+    }
+}

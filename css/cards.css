@@ -46,3 +46,28 @@
         height: 40vh;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .cards {
+        display: flex;
+        margin-top: 4%;
+        padding: 0 6%;
+    }
+
+    .cards__content {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        height: 29vh;
+        padding: 2%;
+        margin-right: 2%;
+        border-radius: 8px;
+    }
+
+    .card2 {
+        margin-top: 7%;
+    }
+
+    .card3 {
+        margin-top: 10%;
+    }
+}
