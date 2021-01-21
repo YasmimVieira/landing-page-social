@@ -1,0 +1,34 @@
+.cards {
+    margin-top: 10%;
+    padding: 0 10%;
+}
+
+.cards__content {
+    height: 30vh;
+    padding: 5%;
+    margin-top: 5%;
+    background-color: var(--magenta);
+    color: var(--white);
+    font-weight: 400;
+    font-size: 0.7rem;
+    border-radius: 10px;
+}
+
+.cards__header {
+    display: flex;
+    align-items: center;
+}
+
+.cards__image {
+    border-radius: 100%;
+    width: 15%;
+}
+
+.cards__descriptions {
+    margin-left: 2%;
+}
+
+.cards__subtitle {
+    color: var(--pink);
+    font-weight: 400;
+}
